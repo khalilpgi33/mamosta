@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>مامۆستا خەلیل محەمەد ئەمین</title>
+    <meta name="description" content="ماڵپەڕی فەرمی مامۆستا خەلیل محەمەد ئەمین - شەرح کردنی وانەکانی زمانی عەرەبی پۆلی ١١">
+    <meta name="keywords" content="مامۆستا خەلیل محمد امین, مامۆستا خەلیل محەمەد ئەمین, زمانی عەرەبی, پۆلی 11">
+    <meta name="author" content="مامۆستا خەلیل محەمەد ئەمین">
+
+    <style>
+        :root {
+            --gold: #d4af37;
+            --dark-blue: #020617;
+            --card-bg: #0f172a;
+        }
+
+        body {
+            background-color: var(--dark-blue);
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to bottom, #1e293b, var(--dark-blue));
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .logo-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 3px solid var(--gold);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        header h1 {
+            color: var(--gold);
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000, 0 0 25px rgba(212, 175, 55, 0.6);
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: #94a3b8;
+            margin-top: 15px;
+        }
+
+        .tabs-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: -30px;
+            padding: 0 20px;
+        }
+
+        .tab-btn {
+            background: #1e293b;
+            color: white;
+            border: 2px solid var(--gold);
+            padding: 12px 40px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .tab-btn.active {
+            background: var(--gold);
+            color: #000;
+            transform: translateY(-5px);
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .class-content {
+            display: none;
+        }
+
+        .class-content.active {
+            display: block;
+        }
+
+        .section-title {
+            color: var(--gold);
+            border-right: 5px solid var(--gold);
+            padding-right: 15px;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .video-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            border: 1px solid #1e293b;
+            overflow: hidden;
+            transition: 0.4s;
+        }
+
+        .video-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+        }
+
+        video {
+            width: 100%;
+            display: block;
+        }
+
+        .video-info {
+            padding: 20px;
+            text-align: right;
+        }
+
+        .lesson-tag {
+            background: rgba(212, 175, 55, 0.2);
+            color: var(--gold);
+            padding: 3px 12px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px;
+            color: #475569;
+            border-top: 1px solid #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <img src="bawkm.png" alt="Mamosta Khalil Logo" class="logo-img">
+    <h1>مامۆستا خلیل محمدأمین </h1>
+    <p>ئامادەیی شایستەی كچان</p>
+    <p>شەرح كردنی وانەكانی زمانی عربی پۆلی 11</p>
+</header>
+
+<div class="tabs-container">
+    <button class="tab-btn active" onclick="openClass('poly11', this)">پۆلی ١١</button>
+</div>
+
+<div class="container">
+    <div id="poly11" class="class-content active">
+        <h2 class="section-title">وانەکانی پۆلی 11</h2>
+        <div class="video-grid">
+            <div class="video-card"><video controls><source src="XAZI.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ١</span></div></div>
+            <div class="video-card"><video controls><source src="XAZI_2.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ٢</span></div></div>
+            <div class="video-card"><video controls><source src="XAZI_3.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ٣</span></div></div>
+            <div class="video-card"><video controls><source src="XAZI_4.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ٤</span></div></div>
+            <div class="video-card"><video controls><source src="XAZI_5.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ٥</span></div></div>
+            <div class="video-card"><video controls><source src="XAZI_6.mp4" type="video/mp4"></video><div class="video-info"><span class="lesson-tag">وانەكانی پۆلی 11 - وانەی ٦</span></div></div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    مافی پارێزراوە بۆ پۆرتاڵی فێربوونی مامۆستا خەلیل &copy; ٢٠٢٦
+</footer>
+
+<script>
+    function openClass(className, btn) {
+        var contents = document.getElementsByClassName("class-content");
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].classList.remove("active");
+        }
+        var tabs = document.getElementsByClassName("tab-btn");
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].classList.remove("active");
+        }
+        document.getElementById(className).classList.add("active");
+        btn.classList.add("active");
+    }
+</script>
+
+</body>
+</html>
